@@ -10,7 +10,8 @@ const Hero = () => {
             className="relative text-white z-10  ">
                 <div className="container px-5  mx-auto items-center py-24 flex flex-col md:flex-row ">
                     <div className="flex flex-col items-center text-center w-full mb-16 md:mb-0 md:w-1/2 md:pr-16 lg:pr-24 2xl:pr-44 lg:flex-grow md:items-start md:text-left ">
-                        <img src="Assitas/hi.png" alt="hi" className="w-20 h-20 absolute top-[480px] left-44 md:top-[130px]  md:left-[490px] -translate-y-1/2  " />
+                        <img data-aos = 'fade-left' data-aos-delay= '250'
+                        src="Assitas/hi.png" alt="hi" className="w-20 h-20 absolute top-[480px] left-44 md:top-[80px]  md:left-[490px] -translate-y-1/2  " />
                         <h1 className='title-font text-4xl  mb-4 font-bold text-white'>Hi! I'm NaFISa</h1>
                         <p className='mb-8 leading-relaxed'>Lorem ipusm dolor sit amet consectetur adipisicing elit.Lorem ipusm dolor sit amet consectetur adipisicing elit.Lorem ipusm dolor sit amet consectetur adipisicing elit.Lorem ipusm dolor sit amet consectetur adipisicing elit.Lorem ipusm dolor sit amet consectetur adipisicing elit. </p>
                         <div className="flec justify-center">
