@@ -4,6 +4,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import Skills from "./commponent/Skills/Skills";
 import Experience from "./commponent/Experience/Experienc";
+import Language from "./commponent/Language/Language";
 function App() {
 
   useEffect(() => {
@@ -15,6 +16,7 @@ function App() {
                <Hero />
                <Skills />
                <Experience />
+               <Language />
            </main>
        </div>
   )
